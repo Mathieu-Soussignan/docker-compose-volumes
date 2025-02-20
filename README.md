@@ -10,7 +10,7 @@
   - [Tester la persistance des données](#tester-la-persistance-des-données)
   - [🛠️ Built With](#️-built-with)
     - [Top contributors:](#top-contributors)
-  - [📄 Licence](#-licence)
+    - [📄 Licence](#-licence)
 ---
 
 # Installation et Exécution de l'Application avec Docker Compose
@@ -182,7 +182,7 @@ re tester la persistance des données
 
 <p align="right">(<a href="#table-des-matières">back to top</a>)</p>
 
-## 📄 Licence
+### 📄 Licence
 
 Distribué sous la licence du projet. Voir le fichier `LICENSE.txt` pour plus d'informations.
 
