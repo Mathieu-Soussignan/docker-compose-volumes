@@ -1,4 +1,4 @@
-## 📑 Table des matières:
+## Table des matières:
 
 - [Installation et Exécution de l'Application avec Docker Compose](#installation-et-exécution-de-lapplication-avec-docker-compose)
   - [Prérequis](#prérequis)
@@ -9,6 +9,7 @@
   - [Instructions additionnelles](#instructions-additionnelles)
   - [Tester la persistance des données](#tester-la-persistance-des-données)
   - [🛠️ Built With](#️-built-with)
+    - [Top contributors:](#top-contributors)
   - [📄 Licence](#-licence)
 ---
 
@@ -19,7 +20,7 @@ Ce fichier README explique comment installer et exécuter l'application en utili
 ---
 
 
-
+<p align="right">(<a href="#table-des-matières">back to top</a>)</p>
 
 ## Prérequis
 
@@ -28,6 +29,8 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés :
 *   **Docker:** [https://www.docker.com/](https://www.docker.com/)
 *   **Docker Compose:** [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
 *   **Python 3:** [https://www.python.org/](https://www.python.org/)
+
+<p align="right">(<a href="#table-des-matières">back to top</a>)</p>
 
 ## Installation
 
@@ -66,6 +69,8 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés :
     pip install -r requirements.txt
     ```
 
+<p align="right">(<a href="#table-des-matières">back to top</a>)</p>
+
 ## Exécution
 
 1.  **Démarrer les conteneurs avec Docker Compose:**
@@ -90,17 +95,22 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés :
     docker-compose down
     ```
 
+<p align="right">(<a href="#table-des-matières">back to top</a>)</p>
+
 ## Scripts Python
 
 *   **`create_tables_and_populate_db.py`:** Script pour initialiser ou ajouter des données à la base de données.
 *   **`read_db.py`:** Script pour lire et afficher les données de la base de données.
 *   **`populate_more_db.py`:** Script pour ajouter plus de donnéesdans les données de la base de données.
 
+<p align="right">(<a href="#table-des-matières">back to top</a>)</p>
 
 ## Fichiers de Configuration
 
 *   **`docker-compose.yml`:** Fichier de configuration pour Docker Compose.
 *   **`init.sql`:** Script SQL pour l'initialisation de la base de données (création de la base et des tables).
+     
+<p align="right">(<a href="#table-des-matières">back to top</a>)</p>
 
 ## Instructions additionnelles
 
@@ -115,6 +125,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés :
     ```bash
     docker-compose ps
     ```
+<p align="right">(<a href="#table-des-matières">back to top</a>)</p>
 
 ## Tester la persistance des données     
 
@@ -160,18 +171,20 @@ re tester la persistance des données
     <img src="https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="docker-desktop">
 
 </p>
+<p align="right">(<a href="#table-des-matières">back to top</a>)</p>
+
+### Top contributors:
+
+<a href="https://github.com/DeVerMyst/docker-compose-volumes/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DeVerMyst/docker-compose-volumes" alt="contrib.rocks image" />
+</a>
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#table-des-matières">back to top</a>)</p>
 
 ## 📄 Licence
 
 Distribué sous la licence du projet. Voir le fichier `LICENSE.txt` pour plus d'informations.
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#table-des-matières">back to top</a>)</p>
