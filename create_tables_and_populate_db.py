@@ -2,17 +2,17 @@ import psycopg2
 
 # Connexion à la base de données
 conn = psycopg2.connect(
-    host="localhost",
-    port=5432,       
-    user="myuser",
-    password="mypassword",
-    database="mydb"
+    host="localhost",     # Le conteneur expose 5432 vers la machine hôte
+    port=5432,
+    user="myuser",        # POSTGRES_USER
+    password="mypassword",# POSTGRES_PASSWORD
+    database="mydb"       # POSTGRES_DB
 )
 
 # Création d'un curseur
 cur = conn.cursor()
 
-# Création de la table si elle n'existe pas déjà
+# Création de la table si elle n’existe pas
 cur.execute("""
     CREATE TABLE IF NOT EXISTS users (
         id SERIAL PRIMARY KEY,

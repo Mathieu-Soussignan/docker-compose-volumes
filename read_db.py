@@ -22,4 +22,4 @@ for row in rows:
 
 # Fermeture du curseur et de la connexion
 cur.close()
-conn.close()
+conn.close() # noqa

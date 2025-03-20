@@ -1,10 +1,10 @@
 import psycopg2
 import time
 
-time.sleep(5)
+time.sleep(5)  # Optionnel : donne à PostgreSQL le temps de se lancer
 
 conn = psycopg2.connect(
-    host="localhost", # ou "database" si le script est dans un conteneur sur le même réseau docker
+    host="localhost",
     port=5432,
     user="myuser",
     password="mypassword",
@@ -21,4 +21,4 @@ conn.commit()
 cur.close()
 conn.close()
 
-print("Nouvelles données insérées dans la base de données.")
+print("Nouvelles données insérées dans la base de données.") # noqa
